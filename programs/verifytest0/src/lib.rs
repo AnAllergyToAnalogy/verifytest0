@@ -11,11 +11,11 @@ use solana_security_txt::security_txt;
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
     name: "Program Verify Test",
-    project_url: "https://github.com/AnAllergyToAnalogy/solana-verify-test",
+    project_url: "https://github.com/AnAllergyToAnalogy/verifytest0",
     contacts: "email:anallergytoanalogy@gmail.com",
-    policy: "https://github.com/AnAllergyToAnalogy/solana-verify-test/blob/main/SECURITY.md",
+    policy: "https://github.com/AnAllergyToAnalogy/verifytest0/blob/main/SECURITY.md",
     preferred_languages: "en",
-    source_code: "https://github.com/AnAllergyToAnalogy/solana-verify-test"
+    source_code: "https://github.com/AnAllergyToAnalogy/verifytest0"
 }
 
 pub use constants::*;
